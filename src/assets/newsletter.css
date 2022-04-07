@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 20vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: url(https://www.teahub.io/photos/full/225-2259323_black-space-wallpapers-in-best-px-resolutions-black.jpg);
+    background-size: cover;
+}
+
+h1{
+    color: white;
+    font-size: 30px;
+}
+
+p{
+    display: flex;
+    color: white;
+    font-size: 25px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    /* background-color: #12647dcc; */
+    height: 25vh;
+}
+
+.emailInput{
+    margin-top: 45px;
+    margin-bottom: 20px;
+    width: 25vw;
+    border: 2px solid black;
+}
+
+::placeholder{
+    opacity: 1;
+}
+
+.subsInput{
+    display: block;
+    cursor: pointer;
+    position: relative;
+}
